@@ -23,7 +23,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # ── Config ───────────────────────────────────────────────────────────────────
-TELEGRAM_TOKEN = os.environ["TELEGRAM_TOKEN"]
+TELEGRAM_TOKEN = os.environ["8619843619:AAEh1NhGm-crr0KKWwh5ZN9qtQb3PN5-KbY"]
 
 # Whisper model size:
 #   tiny   ~1 GB VRAM  — fastest,  least accurate
