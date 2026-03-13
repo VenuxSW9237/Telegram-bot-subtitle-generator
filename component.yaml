@@ -1,0 +1,13 @@
+apiVersion: core.choreo.dev/v1beta1
+kind: Component
+metadata:
+  name: telegram-subtitle-bot
+  description: "Telegram bot that generates English subtitles from videos in any language"
+spec:
+  type: Service
+  build:
+    dockerfile: Dockerfile
+  deployment:
+    resources:
+      cpu: "1"
+      memory: "2Gi"
